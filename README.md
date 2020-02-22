@@ -29,11 +29,9 @@ dependencies {
 }
 ```
 ## Usage
-/**
-	 Instantiates a new Preference manager.
-	 
-	 @param context the context
-	 */
+
+	/** Instantiates a new Preference manager. */
+
 	public SoftPalPreferenceManager(Context context) {
 		this._context = context;
 		pref = _context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
